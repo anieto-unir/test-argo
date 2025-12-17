@@ -17,4 +17,4 @@ spec:
         - image: docker.io/otrofox/k8s-helloworld:1.0
           name: guestbook-ui
           ports:
-            - containerPort: 80
+            - containerPort: 8000
