@@ -19,7 +19,7 @@ spec:
         app: flask-docker
     spec:
       containers:
-        - image: docker.io/otrofox/flask-docker:2.0
+        - image: docker.io/otrofox/flask-docker:3.0
           name: flask-docker
           ports:
             - containerPort: 5000
