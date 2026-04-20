@@ -12,7 +12,7 @@ HEADERS = {"Content-Type": "text/plain", "Access-Control-Allow-Origin": "*"}
 
 @api_application.route("/")
 def hello():
-    return "Hello from The Calculator V2!\n"
+    return "Hello from The Calculator!\n"
 
 
 @api_application.route("/calc/add/<op_1>/<op_2>", methods=["GET"])
